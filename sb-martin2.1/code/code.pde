@@ -40,7 +40,7 @@ void draw() {
 }
 
 void swatchColor(ColorPalette cp) {
-  vpct = 0.09;
+  vpct = 0.009;
   lthresh = 7;
   fill(cp.getBaseColor());
   rect(0, ( 0 * (height/16)), width, height/16);
